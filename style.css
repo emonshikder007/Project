@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+* {
+
+   margin: 0;
+
+   padding: 0;
+
+   box-sizing: border-box;
+
+}
+
+
+ .hero-section {
+
+    background: url(/bg.jpeg);
+
+    background-position: center;
+
+    background-size: cover;
+
+    min-height: 100vh;
+
+    background-repeat: no-repeat;
+
+
+ }
+
+ header {
+
+   display: flex;
+
+   justify-content: space-between;
+   
+   align-items: center;
+
+   padding: 58px;
+
+ }
+
+ .header-btn {
+
+   height: 42px;
+
+   width: 108px;
+
+   border: none;
+
+   border-radius: 8px;
+
+   font-family: "outfit", sans-serif;
+
+   background: rgb(0, 98, 255);
+
+   font-size: 16px;
+
+   letter-spacing: .8px;
+
+   font-weight: 500;
+
+   color: #fff;
+
+   cursor: pointer;
+
+   transition: 0.3s ease;
+
+   margin-right: 50px;
+
+ }
+
+ .header-btn:hover {
+
+   background: rgba(0, 110, 255, 0.815);
+
+ }
+
+
+ .logo_txt {
+
+   font-size: 39px;
+
+   margin-left: 50px;
+
+   font-weight: 800;
+
+   font-family: 'outfit', sans-serif;
+
+   color: rgb(0, 80, 255);
+
+   letter-spacing: 0.8px;
+
+ }
+
+ .hero-container {
+
+   display: flex;
+
+   flex-direction: column;
+
+   align-items: center;
+   
+   margin-top: 70px;
+
+ }
+
+ .hero-txt {
+
+   font-size: 4.4vmax;
+
+   text-align: center;
+
+   font-weight: 700;
+
+   font-family: 'outfit', sans-serif;
+
+   letter-spacing: 1px;
+
+ }
+
+ .hero-btn {
+
+   height: 42px;
+
+   width: 150px;
+
+   border: none;
+
+   border-radius: 8px;
+
+   font-family: "outfit", sans-serif;
+
+   background: rgb(0, 98, 255);
+
+   font-size: 16px;
+
+   letter-spacing: .8px;
+
+   font-weight: 500;
+
+   color: #fff;
+
+   cursor: pointer;
+
+   transition: 0.3s ease;
+
+   margin-top: 40px;
+
+ }
+
+ .hero-btn:hover {
+
+   background: rgba(0, 110, 255, 0.815);
+
+ }
+
+
+
+ /* 2nd Section */
+
+
+
+ .second-section {
+
+   margin: 0px;
+
+ }
+
+  .secContainerr {
+
+   margin-top: 100px;
+
+   position: relative;
+
+ }
+
+ .secContainer {
+
+   display: grid;
+
+   grid-template-columns: repeat(2, 1fr);
+
+   grid-template-rows: 1fr;
+
+   grid-column-gap: 100px;
+
+   grid-row-gap: 0px;
+
+   position: absolute;
+
+
+   width: 100%;
+
+
+
+ }
+
+ .secPageTxt {
+
+   grid-area: 1 / 1 / 2 / 2;
+
+   margin-left: 160px;
+
+   margin-top: 50px;
+
+ }
+
+  .secPageTxt h2 {
+
+   font-size: 28px;
+
+   font-family: 'outfit', sans-serif;
+
+   letter-spacing: 1px;
+
+  }
+
+  .secPageTxt p {
+
+   font-family: "outfit", sans-serif;
+
+   font-size: 17px;
+
+   letter-spacing: 1.2px;
+
+   margin-top: 20px;
+
+   color: #0000009a;
+
+  }
+
+ .secPageTxt button {
+
+   height: 42px;
+
+   width: 200px;
+
+   border: none;
+
+   border-radius: 8px;
+
+   font-family: "outfit", sans-serif;
+
+   background: rgb(0, 98, 255);
+
+   font-size: 16px;
+
+   letter-spacing: .8px;
+
+   font-weight: 500;
+
+   color: #fff;
+
+   cursor: pointer;
+
+   transition: 0.3s ease;
+
+   margin-top: 20px;
+
+ }
+
+ .secPageTxt button:hover {
+
+   background: rgba(0, 110, 255, 0.815);
+
+ }
+
+
+ .secPageImg {
+
+   grid-area: 1 / 2 / 2 / 3;
+
+ }
+
+ .secImg {
+
+   border-radius: 40px;
+
+   margin-left:90px;
+
+   width: 52%;
+
+   height: auto;
+
+ }
+
