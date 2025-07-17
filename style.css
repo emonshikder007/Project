@@ -186,7 +186,6 @@
 
    grid-row-gap: 0px;
 
-   position: absolute;
 
 
    width: 100%;
@@ -284,3 +283,25 @@
 
  }
 
+
+ .thiContainer {
+
+  display: flex;
+
+  flex-direction: column;
+
+  width: 70%;
+
+  background: red;
+
+  border-radius: 8px;
+
+  margin-top: 90px;
+
+ }
+
+ .cr {
+
+  display: flex;
+
+ }
