@@ -283,6 +283,18 @@
 
  }
 
+ .third-section {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding-bottom: 50px;
+
+ }
+
 
  .thiContainer {
 
@@ -292,11 +304,24 @@
 
   width: 70%;
 
-  background: red;
+  background: rgba(173, 152, 236, .2);
 
   border-radius: 8px;
 
   margin-top: 90px;
+
+  height: 230px;
+
+  width: 70%;
+
+  padding-top: 8px;
+
+  box-shadow: 0 0 .6px #000,
+              0 0 .7px #000;
+  
+  padding-right: 22px;
+
+
 
  }
 
@@ -304,4 +329,72 @@
 
   display: flex;
 
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 25px;
+
+  padding-left: 20px;
+
  }
+
+ .ix {
+
+  margin-top: 25px;
+
+  font-size: 33px;
+
+  font-family: 'outfit', sans-serif;
+
+  text-align: center;
+
+  letter-spacing: 2px;
+
+ }
+
+ .nx {
+
+  margin-right: 100px;
+
+ }
+
+ .gx {
+
+  margin-left: 80px;
+
+ }
+
+ .ax {
+
+  margin-left: 130px;
+
+ }
+
+
+ .nx h1,
+ .gx h1,
+ .ax h1 {
+
+  font-size: 3.5rem;
+
+  font-weight: 900;
+
+  font-family: 'outfit', sans-serif;
+
+  color: rgb(0, 80, 255);
+
+ }
+
+ .nx p,
+ .gx p,
+ .ax p {
+
+  font-size: 17px;
+
+  color: rgba(0, 0, 0, 0.7);
+
+  font-family: 'outfit', sans-serif;
+
+ }
+
