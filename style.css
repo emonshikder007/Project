@@ -14,7 +14,7 @@
 
  .hero-section {
 
-    background: url(/assets/bg.jpeg);
+    background: url(assets/bg.jpeg);
 
     background-position: center;
 
@@ -398,3 +398,35 @@
 
  }
 
+
+ .fth-title {
+
+  text-align: center;
+
+  font-family: 'outfit', sans-serif;
+
+ }
+
+ .stars {
+
+  display: flex;
+
+ }
+
+ .fth-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  margin-top: 40px;
+
+ }
+
+ .pfp-pic {
+
+  display: flex;
+
+ }
